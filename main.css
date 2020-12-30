@@ -1,0 +1,214 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
+    font-family: 'Open Sans', sans-serif !important;
+    color: #777777;
+  }
+
+  .article {
+    width: 100%;
+    margin: 0 auto;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+
+  }
+
+  p {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  h1 {
+    color: white;
+    text-align: center;
+    font-size: 65px;
+    font-weight: bold;
+    line-height: 100vh;
+  }
+
+  h2 {
+    text-align: center;
+    padding-top: 50px;
+    color: rgb(173, 162, 141);
+    font-size: 55px;
+    font-weight: bold;
+  }
+
+  h3 {
+    margin: 15px 0;
+    color: rgb(173, 162, 141);
+  }
+
+  .s1 {
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/1.jpg);
+    text-shadow: 5px 4px 5px #575353;
+
+  }
+
+  hr {
+    color: #555555;
+    margin: 40px auto;
+  }
+
+  .container {
+    width: 45%;
+  }
+
+  .profile img {
+    border-radius: 50%;
+    border: 13px solid rgb(248, 241, 224);
+  }
+
+  .profile a{
+    text-decoration: none;
+  }
+  .profile .fab{
+  color: #777777;
+  }
+
+  .experiences {
+    background-color: rgb(248, 241, 224);
+  }
+
+  .experiences .degree {
+    margin-bottom: 0;
+    font-weight: 900;
+    color: #444;
+  }
+
+  .university {
+    margin-bottom: 0;
+    font-size: 18px;
+    font-weight: 900;
+    color: #444;
+  }
+
+  .year,
+  .ex-text {
+    margin: 8px 0;
+  }
+
+  .fab {
+    font-size: 30px;
+  }
+
+  .map {
+    font-size: 25px;
+    color: rgb(173, 162, 141);
+    font-family: 'Open Sans', sans-serif !important;
+  }
+  ul{
+    list-style: none;
+    padding: 0;
+  }
+  li{
+    padding: 3px;
+  }
+  ul li:hover{
+    background-color: rgba(235, 235, 235, 0.5);
+  }
+
+  ul li:hover .ability-score{
+    word-spacing: 2px;
+    transition: .2s;
+  }
+  
+  .ability-score{
+    justify-content: flex-end;
+    float: right;
+  }
+  .ability-score .fas{
+    color: rgb(173, 162, 141);
+    font-size: 15px;
+  }
+  .projects{
+    background-color:rgb(248, 241, 224);
+  }
+  .effect{
+    margin: 0 10px;
+    margin-bottom: 44px;
+    position: relative;
+    width: 384.17px;
+    height: 290.18px;
+  }
+  .effect img{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  .effect .mask{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* opacity: 0; */
+    background-color:  rgb(173, 162, 141,0.85);
+    color: #fff;
+    padding: 40px 40px;
+    overflow: hidden;
+    
+  }
+  .mask h3{
+    font-weight: 600;
+      color: #fff;
+      border-bottom: 2px solid #fff;
+      padding-bottom: 15px;
+  }
+  .mask p{
+    margin: 0;
+    padding-bottom: 20px;
+  }
+  .link-icon{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 50px;
+    background-color: rgb(173, 162, 141);
+    color: #fff;
+    display: flex;
+    justify-content: center;
+  }
+  .link-icon .fas{
+    font-size: 20px;
+    line-height: 50px;
+    
+  }
+  .btn-mycolor{
+    background-color: rgb(173, 162, 141);
+    color: #fff;
+  }
+.btn-mycolor:hover{
+  background-color: rgb(155, 144, 125);
+  color: #fff;
+}
+  .contact{
+    background-color:rgb(119, 119, 119);
+    height: 500px;
+    
+  }
+  
+  .contact h3{
+    text-align: center;
+  }
+  .contact .info{
+    display: flex;
+    justify-content: center;
+  }
+  .contact .fas{
+    font-size: 25px;
+  }
+  .footer{
+    background-color:rgb(119, 119, 119);
+    display: flex;
+    justify-content: center;
+    font-size: 10px;
+  }
