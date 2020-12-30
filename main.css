@@ -18,7 +18,12 @@
     background-size: cover;
 
   }
+  .s1 {
+    color: #fff;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/1.jpg);
+    text-shadow: 5px 4px 5px #575353;
 
+  }
   p {
     font-size: 15px;
     line-height: 25px;
@@ -45,12 +50,7 @@
     color: rgb(173, 162, 141);
   }
 
-  .s1 {
-    color: #fff;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(images/1.jpg);
-    text-shadow: 5px 4px 5px #575353;
-
-  }
+  
 
   hr {
     color: #555555;
@@ -211,4 +211,34 @@
     display: flex;
     justify-content: center;
     font-size: 10px;
+  }
+
+  @media screen and (max-width:768px){
+    
+    h1 { 
+      
+      font-size: 2em;
+      text-align: center;
+    }
+    h2{
+      font-size: 40px;
+      text-align: center;
+    }
+  
+    /* h2 { font-size: 1.5em; margin: .75em 0 } 
+    h3 { font-size: 1.17em; margin: .83em 0 } */
+    /* .s1{
+      margin: 0;
+    } */
+    .container{
+      width: 90%;
+    }
+    .profile .row{
+      text-align: center;
+    }
+    .effect{
+      margin: 30px auto;
+      width: 90%;
+      height: 80%;
+    }
   }
