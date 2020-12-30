@@ -214,7 +214,9 @@
   }
 
   @media screen and (max-width:768px){
-    
+    /* body{
+      width: 100%;
+    } */
     h1 { 
       
       font-size: 2em;
@@ -224,7 +226,9 @@
       font-size: 40px;
       text-align: center;
     }
-  
+  .article{
+    width: 100%;
+  }
     /* h2 { font-size: 1.5em; margin: .75em 0 } 
     h3 { font-size: 1.17em; margin: .83em 0 } */
     /* .s1{
