@@ -327,5 +327,8 @@
     #profile .row{
       text-align: center;
     }
+    .mynavbar{
+      display: none;
+    }
     
   }
