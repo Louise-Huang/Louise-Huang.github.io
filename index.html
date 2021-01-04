@@ -16,62 +16,86 @@
   <!-- <link rel="stylesheet" type="text/css" href="css/all.css"> -->
   <!-- <link rel="stylesheet" type="text/css" href="css/fontawesome.min.css"> -->
   <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.6/css/all.css"> -->
+  <title>Louise Huang - Interactive Resume</title>
 </head>
 
 <body>
 
-  <!-- <img src="images/song.jpg" alt="" class="w-100"> -->
 
   <div class="s1 article">
     <h1>Hello, I'm Louise!</h1>
   </div>
-  <div class="profile">
-    <div class="container">
-      <h2>Profile</h2>
-      <hr>
-      <div class="row">
-        <div class="col">
-          <h3>About me</h3>
-          <p>
-            2020年9月從北科大資工所畢業，在校兩年期間以C++及Python為主要撰寫語言。大學主修資訊傳播工程，主要撰寫C/C#及學習多元化的多媒體課程，包含Unity、Maya、PHP、Web程式設計與視窗設計等。在這六年期間接觸過多種程式語言及多媒體軟體，研究所畢業後決定朝自己更有興趣的方向發展，目前正在積極學習網頁前端相關技能，目標是作為一位網頁前端工程師。
-          </p>
-        </div>
-        <div class="col mx-3">
-          <img src="images/IMG_8776s.jpg" alt="" style="width: 250px;height: 250px;">
-        </div>
-        <div class="col">
-          <h3>Details</h3>
-          <p>
-            <b>Name:</b>
-            <br>
-            黃慧緣 Louise Huang
-            <br>
-            <b>Age:</b>
-            <br>
-            24 years
-            <br>
-            <b>Location:</b>
-            <br>
-            Taoyuan, Taiwan
-          </p>
-          <a href="https://github.com/Louise-Huang">
-            <i class="fab fa-github"></i>
-          </a>
-          &nbsp;
-          <a href="https://github.com/Louise-Huang/blog">
-            <i class="fab fa-github-alt"></i>
-          </a>
-        </div>
-      </div>
-      <div class="row py-4">
-        <p style="text-align: center;">「時間花在哪裡，成就就在哪裡」
-          <br>
-          網路上無意間看到的一句話，成為我的人生座右銘，時刻提醒著自己要把握時間充實自我。
+
+  <nav class="mynavbar">
+    <ul class="mynav">
+      <li class="mynav-li">
+        <a href="#profile">Profile</a>
+      </li>
+      <li class="mynav-li">
+        <a href="#experiences">Experiences</a>
+      </li>
+      <li class="mynav-li">
+        <a href="#ability">Abilities</a>
+      </li>
+      <li class="mynav-li">
+        <a href="#projects">Projects</a>
+      </li>
+      <li class="mynav-li">
+        <a href="#contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+
+
+
+
+  <!-- <div class="profile"> -->
+  <div class="container" id="profile">
+    <h2>Profile</h2>
+    <hr>
+    <div class="row">
+      <div class="col-lg">
+        <h3>About me</h3>
+        <p>
+          2020年9月從北科大資工所畢業，在校兩年期間以C++及Python為主要撰寫語言。大學主修資訊傳播工程，主要撰寫C/C#及學習多元化的多媒體課程，包含Unity、Maya、PHP、Web程式設計與視窗設計等。在這六年期間接觸過多種程式語言及多媒體軟體，研究所畢業後決定朝自己更有興趣的方向發展，目前正在積極學習網頁前端相關技能，目標是作為一位網頁前端工程師。
         </p>
       </div>
+      <div class="col-lg px-3">
+        <img src="images/IMG_8776s.jpg" alt="" style="width: 250px;height: 250px;">
+      </div>
+      <div class="col-lg">
+        <h3>Details</h3>
+        <p>
+          <b>Name:</b>
+          <br>
+          黃慧緣 Louise Huang
+          <br>
+          <b>Age:</b>
+          <br>
+          24 years
+          <br>
+          <b>Location:</b>
+          <br>
+          Taoyuan, Taiwan
+        </p>
+        <a href="https://github.com/Louise-Huang">
+          <i class="fab fa-github"></i>
+        </a>
+        &nbsp;
+        <a href="https://github.com/Louise-Huang/blog">
+          <i class="fab fa-github-alt"></i>
+        </a>
+      </div>
+    </div>
+    <div class="row py-4">
+      <p style="text-align: center;">「時間花在哪裡，成就就在哪裡」
+        <br>
+        網路上無意間看到的一句話，成為我的人生座右銘，時刻提醒著自己要把握時間充實自我。
+      </p>
     </div>
   </div>
-  <div class="experiences">
+  <!-- </div> -->
+  <div id="experiences">
     <div class="container">
       <h2>Experiences</h2>
       <hr>
@@ -102,8 +126,8 @@
           <div class="col-md-8">
             <p class="degree">學士學位 - 資訊傳播工程系</p>
             <p class="ex-text">
-              大學期間主要撰寫的程式語言為C與C#，此外也修習多媒體相關課程，學習使用Maya建模及製作動畫、使用Unity製作小遊戲、撰寫Web程式設計、視窗設計及電腦圖學等等。專題研究是以Unity為開發平台，以HTC
-              Vive結合Leap Motion手勢偵測實做出VR手拉坏系統，曾於放視大賞、臺北創客嘉年華等活動展示專題作品，獲得資傳系107學年度專題特優組第一名。</p>
+              大學期間主要撰寫的程式語言為C與C#，此外也修習多媒體相關課程，學習使用Maya建模及製作動畫、使用Unity製作小遊戲、撰寫Web程式設計、視窗程式設計及電腦圖學等等。專題研究是以Unity為開發平台，以HTC
+              Vive結合Leap Motion手勢偵測實做出VR手拉坏系統，參與多場國內研討會，曾於放視大賞、臺北創客嘉年華等活動展示專題作品，獲得資傳系107學年度專題特優組第一名。</p>
             <i class="fas fa-map-marker-alt" style="display: inline-block;font-size: 20px;"></i>&nbsp;&nbsp;Taoyuan,
             Taiwan
           </div>
@@ -121,8 +145,7 @@
           </div>
           <div class="col-md-8">
             <p class="degree">行政工讀生</p>
-            <p class="ex-text">研究所主要撰寫的程式語言為C++與Python。由於與國泰產險的產學合作計畫，網路爬蟲的部分是由我負責，因此開始自學Python。兩年期間學習了影像處理、電腦圖學、iOS
-              Swift及使用Maya製作人臉表情模型，更是加強了解決問題的能力。畢業論文是結合影像處理、三維建模與表情追蹤實做出3D卡通化人偶及表情追蹤動畫系統。</p>
+            <p class="ex-text">負責接待客人、轉接來電、工作環境清潔等行政庶務。學習將瑣碎小事做好的統整能力，雖然行政工讀生的工作較為繁瑣，但多了許多與同事交流的機會，也因此學習與人溝通的技巧。</p>
 
             <i class="fas fa-map-marker-alt" style="display: inline-block;font-size: 20px;"></i>&nbsp;&nbsp;Taipei,
             Taiwan
@@ -173,7 +196,7 @@
       </div>
     </div>
   </div>
-  <div class="ability">
+  <div id="ability">
     <div class="container">
       <h2>Abilities</h2>
       <hr>
@@ -181,7 +204,7 @@
         <h3>Skills</h3>
       </div>
       <div class="row">
-        <div class="col-md me-4">
+        <div class="col-lg-6">
           <ul>
             <li>
               <span>C/C++</span>
@@ -236,7 +259,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md">
+        <div class="col-lg-6">
           <ul>
             <li>
               <span class="ability-title">Bootstrap5</span>
@@ -296,7 +319,7 @@
         <h3>Tools</h3>
       </div>
       <div class="row pb-5">
-        <div class="col-md me-4">
+        <div class="col-lg-6">
           <ul>
             <li>
               <span class="ability-title">Visual Studio (4 years)</span>
@@ -351,7 +374,7 @@
             </li>
           </ul>
         </div>
-        <div class="col-md">
+        <div class="col-lg-6">
           <ul>
             <li>
               <span class="ability-title">Adobe Premiere (2 years)</span>
@@ -409,12 +432,12 @@
       </div>
     </div>
   </div>
-  <div class="projects">
+  <div id="projects">
     <div class="container">
       <h2>Projects</h2>
       <hr>
       <div class="row">
-        <div class="col-md-6 col-sm-12">
+        <div class="col-lg-6 col-sm-12">
           <div class="effect">
             <img src="images/maya-house.png" alt="" class="img-fluid">
             <a href="https://youtu.be/fmyeh8z7Uxk">
@@ -433,7 +456,7 @@
           </div>
 
         </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-lg-6 col-sm-12">
           <div class="effect">
             <img src="images/unity-house.png" alt="" class="img-fluid">
             <a href="https://youtu.be/I0dVx4D8bLY">
@@ -451,7 +474,7 @@
             </a>
           </div>
         </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-lg-6 col-sm-12">
           <div class="effect">
             <img src="images/mcuvr.png" alt="" class="img-fluid">
             <a href="https://youtu.be/z7dff8gQ_Ok">
@@ -470,7 +493,7 @@
           </div>
 
         </div>
-        <div class="col-md-6 col-sm-12">
+        <div class="col-lg-6 col-sm-12">
           <div class="effect">
             <img src="images/3d.JPG" alt="" class="w-100" style="object-fit: cover;">
             <a href="https://youtu.be/Ht1je7Aaucs">
@@ -491,12 +514,12 @@
       </div>
       <div class="row pb-5">
         <div class="col d-flex justify-content-center">
-          <button type="button" class="btn btn-mycolor">See projects on github</button>
+          <button type="button" href="https://google.com.tw" class="btn btn-mycolor">See projects on github</button>
         </div>
       </div>
     </div>
   </div>
-  <div class="contact " style="color: #fff;">
+  <div id="contact" style="color: #fff;">
     <div class="container">
       <h2 style="color: #fff;">Contact</h2>
       <hr style="color: #fff;">
@@ -521,6 +544,13 @@
         $('.mask').hide();
       })
     })
+    $('.btn').click(function (event) {
+      document.location.href = 'https://github.com/Louise-Huang';
+    })
+    // $('.mynav-li').click(function (event) {
+    //   $('.mynav-li').removeClass('active');
+    //   $(this).addClass('active');
+    // })
   </script>
 </body>
 
