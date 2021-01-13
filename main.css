@@ -25,14 +25,15 @@
     background-color:rgb(177,136,106);
     
   }
+  
   .mynav{
     margin: 0;
   }
   
-  /* .active a{
-    background-color: rgb(173, 162, 141);
+  .mynav-li.active a{
+    color:#444;
     text-decoration: underline;
-  } */
+  }
   .mynav li{
     margin: 0;
     text-align: center;
